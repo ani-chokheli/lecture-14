@@ -1,11 +1,8 @@
-@mixin respond-to($media) {
-    @if $media == 'small' {
-      @media (max-width: 600px) { @content; }
-    }
-    @else if $media == 'medium' {
-      @media (max-width: 992px) { @content; }
-    }
-    @else if $media == 'large' {
-      @media (max-width: 1200px) { @content; }
-    }
-  }
+
+$font-main: Helvetica, sans-serif;
+$font-secondary: Roboto, sans-serif;
+$color-text: #636060;
+$color-heading: #343232;
+$color-white: #FFFFFF;
+$color-bg: #243043;
+$color-bg-light: #ccd0d6;
